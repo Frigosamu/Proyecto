@@ -1,0 +1,22 @@
+{
+    "name": "proyecto-autor-libros",
+    "version": "1.0.0",
+    "description": "Un proyecto para gestionar autores y libros con una relación 1:N",
+    "main": "main.js",
+    "scripts": {
+      "start": "echo 'Inicia un servidor estático para probar el proyecto'",
+      "test": "echo 'Agregar pruebas para el proyecto'"
+    },
+    "keywords": ["autor", "libros", "CRUD", "proyecto"],
+    "author": "Tu Nombre",
+    "license": "MIT",
+    "dependencies": {
+      "lite-server": "^2.6.1"
+    },
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Frigosamu/Proyecto"
+    }
+  }
+  
