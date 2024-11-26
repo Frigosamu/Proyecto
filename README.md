@@ -13,25 +13,28 @@ Este proyecto gestiona autores y libros con una relación 1:N.
 - proyecto-autor-libros/
 - ├── src/
 - │   ├── autor/
-- │   │   ├── Autor.js
-- │   │   ├── autorController.js
-- │   │   ├── listaAutores.html
-- │   │   ├── crearAutor.html
-- │   │   ├── editarAutor.html
-- │   │   └── autor.css
+- │   │     ├── Autor.js
+- │   │     ├── autorController.js
+- │   │     ├── listaAutores.html
+- │   │     ├── crearAutor.html
+- │   │     ├── editarAutor.html
+- │   │     └── autor.css
+- |   |
 - │   ├── libro/
-- │   │   ├── Libro.js
-- │   │   ├── libroController.js
-- │   │   ├── listaLibros.html
-- │   │   ├── crearLibro.html
-- │   │   ├── editarLibro.html
-- │   │   └── libro.css
+- │            ├── Libro.js
+- │            ├── libroController.js
+- │            ├── listaLibros.html
+- │            ├── crearLibro.html
+- │            ├── editarLibro.html
+- │            └── libro.css
+- |
 - ├── assets/
-- │   ├── autores.json
-- │   ├── libros.json
+- │         ├── autores.json
+- │         └── libros.json
+- |
 - ├── index.html
 - ├── main.js
 - ├── css/
-- │   └── main.css
+- │     └── main.css
 - ├── package.json
 - └── README.md
