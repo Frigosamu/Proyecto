@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Autor-Libros</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Librería</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <h1>Proyecto Autor-Libros</h1>
-    <nav>
-        <ul>
-            <li><a href="src/autor/listaAutores.html">Lista de Autores</a></li>
-            <li><a href="src/autor/crearAutor.html">Crear Autor</a></li>
+    <header class="bg-success bg-gradient">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="m-3">
+                <img src="./img/librero.png" alt="logo" class="logo">
+            </div>
+
+            <h1 class="letrasLogo">Librería Utopic</h1>
+        </div>
+    </header>
+
+    <div class="d-flex align-items-center justify-content-center m-5">
+        <nav>
+            <a class="btn btn-primary btn-lg" href="./src/autor/listaAutores.html">Lista de autores</a><br>
+            <a class="btn btn-primary m-3 btn-lg" href="./src/autor/crearAutor.html">Crear Autor</a>
             <!-- Se pueden agregar enlaces a funcionalidades relacionadas con Libros -->
-        </ul>
-    </nav>
+        </nav>
+    </div>
+
+    <footer class="position-absolute w-100 bottom-0">
+        <p>I.E.S. Belén</p>
+        <p>Enzo Samuel Figueredo Ferreira</p>
+    </footer>
+
     <script src="main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

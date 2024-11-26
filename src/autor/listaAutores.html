@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Lista de Autores</title>
-    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="./../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../css/main.css">
 </head>
+
 <body>
-    <h1>Lista de Autores</h1>
+    <header class="bg-success bg-gradient">
+            <div class="d-flex align-items-center position-relative">
+                <div class="m-3">
+                    <nav>
+                        <a href="./../../index.html" class="btn btn-warning btn-lg">Inicio</a>
+                    </nav>
+                </div>
+                
+                <div class="m-3 d-flex align-items-center position-absolute top-0 start-50 translate-middle-x">
+                    <img src="./../../img/librero.png" alt="logo" class="logo">
+                    <h1 class="letrasLogo text-white ms-2">Librería Utopic</h1>
+                </div>
+                
+            </div>
+    </header>
+
+    <h2 class="d-flex justify-content-center m-3">Lista de Autores</h2>
     <ul id="lista-autores"></ul>
     <script src="../../src/autor/autorController.js"></script>
+
+    <footer class="position-absolute w-100 bottom-0">
+        <p>I.E.S. Belén</p>
+        <p>Enzo Samuel Figueredo Ferreira</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
