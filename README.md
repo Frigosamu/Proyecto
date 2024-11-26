@@ -8,3 +8,30 @@ Este proyecto gestiona autores y libros con una relación 1:N.
 ## Cómo Usar
 1. Abra `index.html` en un navegador.
 2. Use los formularios para agregar o listar datos.
+
+## Estructura:
+proyecto-autor-libros/
+├── src/
+│   ├── autor/
+│   │   ├── Autor.js
+│   │   ├── autorController.js
+│   │   ├── listaAutores.html
+│   │   ├── crearAutor.html
+│   │   ├── editarAutor.html
+│   │   └── autor.css
+│   ├── libro/
+│   │   ├── Libro.js
+│   │   ├── libroController.js
+│   │   ├── listaLibros.html
+│   │   ├── crearLibro.html
+│   │   ├── editarLibro.html
+│   │   └── libro.css
+├── assets/
+│   ├── autores.json
+│   ├── libros.json
+├── index.html
+├── main.js
+├── css/
+│   └── main.css
+├── package.json
+└── README.md
