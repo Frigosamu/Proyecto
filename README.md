@@ -10,28 +10,28 @@ Este proyecto gestiona autores y libros con una relación 1:N.
 2. Use los formularios para agregar o listar datos.
 
 ## Estructura:
-proyecto-autor-libros/
-├── src/
-│   ├── autor/
-│   │   ├── Autor.js
-│   │   ├── autorController.js
-│   │   ├── listaAutores.html
-│   │   ├── crearAutor.html
-│   │   ├── editarAutor.html
-│   │   └── autor.css
-│   ├── libro/
-│   │   ├── Libro.js
-│   │   ├── libroController.js
-│   │   ├── listaLibros.html
-│   │   ├── crearLibro.html
-│   │   ├── editarLibro.html
-│   │   └── libro.css
-├── assets/
-│   ├── autores.json
-│   ├── libros.json
-├── index.html
-├── main.js
-├── css/
-│   └── main.css
-├── package.json
-└── README.md
+- proyecto-autor-libros/
+- ├── src/
+- │   ├── autor/
+- │   │   ├── Autor.js
+- │   │   ├── autorController.js
+- │   │   ├── listaAutores.html
+- │   │   ├── crearAutor.html
+- │   │   ├── editarAutor.html
+- │   │   └── autor.css
+- │   ├── libro/
+- │   │   ├── Libro.js
+- │   │   ├── libroController.js
+- │   │   ├── listaLibros.html
+- │   │   ├── crearLibro.html
+- │   │   ├── editarLibro.html
+- │   │   └── libro.css
+- ├── assets/
+- │   ├── autores.json
+- │   ├── libros.json
+- ├── index.html
+- ├── main.js
+- ├── css/
+- │   └── main.css
+- ├── package.json
+- └── README.md
