@@ -10,27 +10,32 @@
 </head>
 
 <body>
-    <header class="bg-success bg-gradient">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="m-3">
+    <header>
+        <div class="d-flex justify-content-between">
+            <div class="m-3 d-flex align-items-center">
                 <img src="./img/librero.png" alt="logo" class="logo">
+                <h1 class="ms-2 letrasLogo text-white">Librería Utopic</h1>
             </div>
-
-            <h1 class="letrasLogo">Librería Utopic</h1>
         </div>
     </header>
 
-    <div class="d-flex align-items-center justify-content-center m-5">
-        <nav>
-            <a class="btn btn-primary btn-lg" href="./src/autor/listaAutores.html">Lista de autores</a><br>
-            <a class="btn btn-primary m-3 btn-lg" href="./src/autor/crearAutor.html">Crear Autor</a>
-            <!-- Se pueden agregar enlaces a funcionalidades relacionadas con Libros -->
-        </nav>
+    <div class="contenido">
+        <h2 class="d-flex justify-content-center my-5">Acceda a la lista o añada un nuevo libro</h2>
+        <div class="d-flex align-items-center justify-content-center m-5">
+            <nav>
+                <a class="btn btn-personal btn-outline-personal btn-lg" href="./src/autor/listaLibros.html">Lista de
+                    libros</a><br>
+                <a class="btn btn-personal btn-outline-personal my-2 mx-2 btn-lg" href="./src/autor/crearLibro.html">Añadir Libro</a>
+                <!-- Se pueden agregar enlaces a funcionalidades relacionadas con Libros -->
+            </nav>
+        </div>
     </div>
 
     <footer class="position-absolute w-100 bottom-0">
-        <p>I.E.S. Belén</p>
-        <p>Enzo Samuel Figueredo Ferreira</p>
+        <div class="my-3">
+            <p>I.E.S. Belén</p>
+            <p>Enzo Samuel Figueredo Ferreira</p>
+        </div>
     </footer>
 
     <script src="main.js"></script>

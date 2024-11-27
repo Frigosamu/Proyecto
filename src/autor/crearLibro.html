@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Autor</title>
+    <link rel="stylesheet" href="./../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../css/main.css">
+</head>
+<body>
+    <header>
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="m-3 d-flex align-items-center">
+                <img src="./../../img/librero.png" alt="logo" class="logo">
+                <h1 class="letrasLogo text-white ms-2">Librería Utopic</h1>
+            </div>
+
+            <div class="m-3">
+                <nav>
+                    <a href="./../../index.html" class="btn btn-personal btn-outline-personal btn-lg">Inicio</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="d-flex justify-content-center">Crear Autor</h1>
+
+    <form class="d-flex justify-content-center" id="form-autor">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="nacionalidad" placeholder="Nacionalidad" required>
+        <input type="date" id="fechaNacimiento" required>
+        <button type="submit">Crear</button>
+    </form>
+    <script src="../../src/autor/autorController.js"></script>
+</body>
+</html>
