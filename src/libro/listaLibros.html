@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lista de Autores</title>
+    <title>Librería Utopic | Lista de Libros</title>
     <link rel="stylesheet" href="./../../css/bootstrap.min.css">
     <link rel="stylesheet" href="./../../css/main.css">
 </head>
@@ -12,7 +12,7 @@
     <header>
         <div class="d-flex align-items-center justify-content-between">
             <div class="m-3 d-flex align-items-center">
-                <img src="./../../img/librero.png" alt="logo" class="logo">
+                <img src="./../../assets/img/librero.png" alt="logo" class="logo">
                 <h1 class="letrasLogo text-white ms-2">Librería Utopic</h1>
             </div>
 
@@ -20,25 +20,40 @@
                 <nav class="mx-2">
                     <a href="./../../index.html" class="btn btn-personal btn-outline-personal btn-lg">Inicio</a>
                 </nav>
-                <nav>
-                    <a href="./../../src/autor/crearLibro.html" class="btn btn-personal btn-outline-personal btn-lg">Crear libro</a>
-                </nav>
             </div>
             
         </div>
     </header>
 
-    <h2 class="d-flex justify-content-center m-3">Lista de Libros</h2>
-    <ul id="lista-autores"></ul>
-    <script src="../../src/autor/autorController.js"></script>
+    <div class="container my-3">
+        <h2 class="d-flex justify-content-center m-3">Lista de Libros</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped text-center">
+                <thead class="table-success">
+                    <tr>
+                        <th>Libro</th>
+                        <th>Año de Publicación</th>
+                        <th>Autor</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí puedes agregar los datos de los libros -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
 
     <footer class="position-absolute w-100 bottom-0">
         <div class="my-3">
             <p>I.E.S. Belén</p>
-            <p>Enzo Samuel Figueredo Ferreira</p>
+            <p>©Enzo Samuel Figueredo Ferreira</p>
         </div>
     </footer>
 
+    <script src="../../src/libro/Libro.js"></script>
     <script src="main.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 

@@ -6,6 +6,9 @@ header {
     background: linear-gradient(#18744a, 30%,#649254);
 }
 
+body {
+    background-color: #f8efed;
+}
 
 a {
     text-decoration: none;
@@ -13,7 +16,7 @@ a {
 }
 
 footer {
-    background-color: #b0b277;
-    color: black;
+    background: linear-gradient(#649254, 80%, #18744a);
+    color: white;
     text-align: center;
 }

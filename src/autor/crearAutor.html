@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Crear Autor</title>
+    <title>Librería Utopic | Crear Autor</title>
     <link rel="stylesheet" href="./../../css/bootstrap.min.css">
     <link rel="stylesheet" href="./../../css/main.css">
 </head>
@@ -10,7 +10,7 @@
     <header>
         <div class="d-flex align-items-center justify-content-between">
             <div class="m-3 d-flex align-items-center">
-                <img src="./../../img/librero.png" alt="logo" class="logo">
+                <img src="./../../assets/img/librero.png" alt="logo" class="logo">
                 <h1 class="letrasLogo text-white ms-2">Librería Utopic</h1>
             </div>
 
@@ -22,14 +22,37 @@
         </div>
     </header>
 
-    <h1 class="d-flex justify-content-center">Crear Autor</h1>
+    <div class="container my-5">
+        <h1 class="my-3 d-flex justify-content-center">Añadir Autor</h1>
+        <form>
+            <div class="mb-3">
+                <label for="nombreAutor" class="form-label">Nombre del Autor</label>
+                <input type="text" class="form-control" id="nombreAutor" placeholder="Introduce el nombre del autor" required>
+            </div>
+    
+            <div class="mb-3">
+                <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="fechanacimiento" required>
+            </div>
 
-    <form class="d-flex justify-content-center" id="form-autor">
-        <input type="text" id="nombre" placeholder="Nombre" required>
-        <input type="text" id="nacionalidad" placeholder="Nacionalidad" required>
-        <input type="date" id="fechaNacimiento" required>
-        <button type="submit">Crear</button>
-    </form>
+            <div class="mb-3">
+                <label for="nacimientoAutor" class="form-label">Lugar de nacimiento</label>
+                <input type="text" class="form-control" id="nacimientoAutor" placeholder="Introduce el nombre del autor" required>
+            </div>
+    
+            <div class="text-center">
+                <button type="submit" class="btn btn-success">Guardar Autor</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="position-absolute w-100 bottom-0">
+        <div class="my-3">
+            <p>I.E.S. Belén</p>
+            <p>©Enzo Samuel Figueredo Ferreira</p>
+        </div>
+    </footer>
+
     <script src="../../src/autor/autorController.js"></script>
 </body>
 </html>

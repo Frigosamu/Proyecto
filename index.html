@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Librería</title>
+    <title>Librería Utopic</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -13,28 +13,57 @@
     <header>
         <div class="d-flex justify-content-between">
             <div class="m-3 d-flex align-items-center">
-                <img src="./img/librero.png" alt="logo" class="logo">
+                <img src="./assets/img/librero.png" alt="logo" class="logo">
                 <h1 class="ms-2 letrasLogo text-white">Librería Utopic</h1>
             </div>
         </div>
     </header>
 
-    <div class="contenido">
-        <h2 class="d-flex justify-content-center my-5">Acceda a la lista o añada un nuevo libro</h2>
-        <div class="d-flex align-items-center justify-content-center m-5">
-            <nav>
-                <a class="btn btn-personal btn-outline-personal btn-lg" href="./src/autor/listaLibros.html">Lista de
-                    libros</a><br>
-                <a class="btn btn-personal btn-outline-personal my-2 mx-2 btn-lg" href="./src/autor/crearLibro.html">Añadir Libro</a>
-                <!-- Se pueden agregar enlaces a funcionalidades relacionadas con Libros -->
-            </nav>
+    <div>
+        <h2 class="text-center m-5">Acceda a la lista o añada un nuevo libro</h2>
+
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-3">
+                    <a class="mx-2 btn btn-personal btn-outline-personal btn-lg"
+                        href="./src/libro/listaLibros.html">Lista de libros</a>
+                </div>
+                    
+                <div class="col-12 col-md-4 mb-2">
+                    <a class="btn btn-personal btn-outline-personal btn-lg"
+                        href="./src/libro/crearLibro.html">Añadir libro</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <a class="btn btn-personal btn-outline-personal btn-lg"
+                        href="./src/libro/editarLibro.html">Editar libros</a>
+                </div>
+            </div>
+
+            
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-3">
+                    <a class="btn btn-personal btn-outline-personal btn-lg"
+                        href="./src/autor/listaAutores.html">Lista de autores</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <a class="btn btn-personal btn-outline-personal btn-lg" href="./src/autor/crearAutor.html">Añadir
+                        autor</a>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <a class="btn btn-personal btn-outline-personal btn-lg" href="./src/autor/editarAutor.html">Editar
+                        autor</a>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="position-absolute w-100 bottom-0">
         <div class="my-3">
             <p>I.E.S. Belén</p>
-            <p>Enzo Samuel Figueredo Ferreira</p>
+            <p>©Enzo Samuel Figueredo Ferreira</p>
         </div>
     </footer>
 

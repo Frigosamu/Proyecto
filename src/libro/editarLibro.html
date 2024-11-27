@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Librería Utopic | Editar Libro</title>
+    <link rel="stylesheet" href="./../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="m-3 d-flex align-items-center">
+                <img src="./../../assets/img/librero.png" alt="logo" class="logo">
+                <h1 class="letrasLogo text-white ms-2">Librería Utopic</h1>
+            </div>
+
+            <div class="m-3">
+                <nav>
+                    <a href="./../../index.html" class="btn btn-personal btn-outline-personal btn-lg">Inicio</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-3">
+        <h2 class="d-flex justify-content-center m-3">Edición de Libro</h2>
+    </div>
+
+    <div class="modal fade" id="editarLibroModal" tabindex="-1" aria-labelledby="editBookModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editBookModalLabel">Editar Libro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editBookForm">
+                        <div class="mb-3">
+                            <label for="bookName" class="form-label">Nombre del libro</label>
+                            <input type="text" class="form-control" id="bookName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="publicationDate" class="form-label">Fecha de publicación</label>
+                            <input type="text" class="form-control" id="publicationDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="authorName" class="form-label">Autor</label>
+                            <input type="text" class="form-control" id="authorName" required>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="position-absolute w-100 bottom-0">
+        <div class="my-3">
+            <p>I.E.S. Belén</p>
+            <p>©Enzo Samuel Figueredo Ferreira</p>
+        </div>
+    </footer>
+
+    <script src="../../src/libro/libroController.js"></script>
+    <script src="./../../main.js"></script>
+    <script src="./../../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
