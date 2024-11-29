@@ -4,12 +4,11 @@
     "description": "Un proyecto para gestionar autores y libros con una relación 1:N",
     "main": "main.js",
     "scripts": {
-      "start": "echo 'Inicia un servidor estático para probar el proyecto'",
-      "test": "echo 'Agregar pruebas para el proyecto'"
+      "start": "live-server"
     },
     "keywords": ["autor", "libros", "CRUD", "proyecto"],
-    "author": "Tu Nombre",
-    "license": "MIT",
+    "author": "Enzo Samuel Figueredo Ferreira",
+    "license": "I.E.S. Belén",
     "dependencies": {
       "lite-server": "^2.6.1"
     },
